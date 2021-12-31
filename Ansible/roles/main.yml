@@ -1,0 +1,12 @@
+---
+- hosts: elk 
+  remote_user: ansible
+  become: true
+  roles:
+    - install-elk
+
+# - hosts: webservers
+#   become: true
+#   roles:
+#     - install-filebeat
+#     - install-metricbeat

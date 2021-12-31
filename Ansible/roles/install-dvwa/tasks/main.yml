@@ -1,0 +1,34 @@
+---
+- name: My First Ansible Playbook
+  hosts: webservers
+  become: true
+  tasks:
+
+  - name: Install Docker
+    apt:
+      update_cache: yes
+      name: docker.io
+      state: present
+
+  - name: Install pip3
+    apt:
+      name: python3-pip
+      state: present
+
+  - name: Install Docker2
+    pip:
+      name: docker
+      state: present
+
+  - name: Install container
+    docker_container: 
+      name: dvwa
+      image: cyberxsecurity/dvwa
+      ports:
+        - "80:80"
+      restart: yes
+
+  - name: Make sure docker starts everytime
+    systemd:
+         name: docker
+         state: started
