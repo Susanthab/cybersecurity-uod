@@ -5,8 +5,8 @@
   roles:
     - install-elk
 
-# - hosts: webservers
-#   become: true
-#   roles:
-#     - install-filebeat
-#     - install-metricbeat
+- hosts: webservers
+  become: true
+  roles:
+    - install-filebeat
+    - install-metricbeat
