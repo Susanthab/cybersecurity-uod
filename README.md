@@ -49,7 +49,7 @@ A summary of the access policies in place can be found in the table below.
 | Jump Box | Yes                 | My local machine IP  |
 | DVWA-1   | No                  | 10.0.0.4,10.1.0.4    |
 | DVWA-2   | No                  | 10.0.0.4,10.1.0.4    |
-| ELK-VM   | No                  | My local machine IP  |
+| ELK-VM   | Yes                 | My local machine IP  |
 
 Note: ELK dashboard can be accessed publicly but allowed only my local machine IP. Also DVWA is accessible via public but allowed only my local machine IP. 
 
