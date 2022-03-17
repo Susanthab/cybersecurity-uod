@@ -14,7 +14,7 @@ Nmap scan results for each machine reveal the below services and OS details:
 $ nmap -sV -A 192.168.1.0/24
 ```
 
-![](images/nmap-scan.png)
+![test](images/nmap-scan.png)
 
 ![](final-project/images/nmap-scan.png)
 
