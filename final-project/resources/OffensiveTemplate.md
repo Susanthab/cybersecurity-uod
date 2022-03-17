@@ -16,7 +16,7 @@ $ nmap -sV -A 192.168.1.0/24
 
 ![test](images/nmap-scan.png)
 
-![](final-project/images/nmap-scan.png)
+![test2](final-project/images/nmap-scan.png)
 
 This scan identifies the services below as potential points of entry:
 - Target 1
