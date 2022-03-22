@@ -6,7 +6,6 @@
 - Exploitation
 
 ### Exposed Services
-_TODO: Fill out the information below._
 
 Nmap scan results for each machine reveal the below services and OS details:
 
@@ -25,7 +24,6 @@ This scan identifies the services below as potential points of entry:
   - port 139/tcp open netbios-ssn
   - port 445/tcp open netbios-ssn
 
-_TODO: Fill out the list below. Include severity, and CVE numbers, if possible._
 
 The following vulnerabilities were identified on each target:
 - Target 1
@@ -34,13 +32,10 @@ The following vulnerabilities were identified on each target:
   - Plain text password for MySQL database
   - Incorrect configuration of user privillages/privillage escalation using python
 
-_TODO: Include vulnerability scan results to prove the identified vulnerabilities._
-
 Wordpress User Enumeration
 ![wordpress-enumerate.png](/final-project/images/wordpress-enumerate.png)
 
 ### Exploitation
-_TODO: Fill out the details below. Include screenshots where possible._
 
 The Red Team was able to penetrate `Target 1` and retrieve the following confidential data:
 - Target 1
@@ -58,4 +53,3 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
       - ssh michael@192.168.1.110
       - pw: michael (weak password)
       - cat /var/www/flag2.txt
-      -
